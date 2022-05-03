@@ -1,0 +1,183 @@
+*
+body
+{
+    background: #000000;
+}
+header
+{
+position: absolute;
+width: 1536px;
+height: 69px;
+left: 0px;
+top: 0px;
+
+background: #d84d4d;
+}
+
+logo
+{
+    position: absolute;
+    width: 245px;
+    height: 48px;
+    left: 27px;
+    top: 11px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+img
+{
+    position: absolute;
+    width: 502px;
+    height: 371px;
+    left: 124px;
+    top: 176px;    
+    
+}
+
+t1
+{
+    position: absolute;
+    width: 171px;
+    height: 86px;
+    left: 893px;
+    top: 188px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 76px;
+    
+    color: #000000;
+}
+
+rect
+{
+    position: absolute;
+    width: 581px;
+    height: 581px;
+    left: 827px;
+    top: 133px;
+    
+    background: #FFFFFF;
+    border-radius: 61px;
+}
+
+t2
+{
+    position: absolute;
+    width: 261px;
+    height: 100px;
+    left: 249px;
+    top: 591px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+t3
+{
+    position: absolute;
+    width: 99px;
+    height: 50px;
+    left: 893px;
+    top: 301px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4;
+}
+
+t4
+{
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 893px;
+    top: 422px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4;
+}
+
+.button
+{
+    position: absolute;
+    width: 149px;
+    height: 60px;
+    left: 893px;
+    top: 565px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 44px;
+    
+    color: #ffffff;  
+    background: #000000;
+    border: 0px;
+    border-radius: 40px;
+}
+
+.button:hover 
+{
+    background-color: #1FD082;
+    color: #000000;  
+}
+
+.input1
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 893px;
+    top: 359px;
+}
+
+.input2
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 893px;
+    top: 478px;
+}
+
+input
+{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+

@@ -1,0 +1,1158 @@
+body
+{   
+    background: #000000;
+}
+
+header
+{
+position: absolute;
+width: 1520px;
+height: 69px;
+left: 0px;
+top: 0px;
+
+background: #ffffff;
+}
+
+.mag{
+    position: absolute;
+    width: 47px;
+    height: 46px;
+    left: 299px;
+    top: 10px;
+}
+
+.search-bar{
+    position: absolute;
+    width: 307px;
+    height: 53px;
+    left: 350px;
+    top: 7px;
+    border: 0px;
+    background: #585656;
+    border-radius: 130px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    padding-left : 10px;
+    padding-right: 10px;
+    
+    color: #FFFFFF;
+}
+
+.user{
+    position: absolute;
+    width: 190px;
+    height: 53px;
+    left: 1223px;
+    top: 7px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    padding-left : 57px;
+    padding-right: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    
+    background: #000000;
+    border-radius: 130px;
+}
+
+.circle{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 1223px;
+    top: 7px;
+    
+    background: #ABE2BE;
+    border-radius: 200px;
+}
+
+.user-icon{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 1223px;
+    top: 7px;
+    
+    background: url(image.png);
+}
+
+logo
+{
+    position: absolute;
+    width: 295px;
+    height: 50px;
+    left: 26px;
+    top: 17px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+}
+
+.NavBar
+{
+    position: fixed;
+    width: 295px;
+    bottom: -50px;
+    padding: 0px;
+    left: 0%;
+    top: 0%;
+    
+    background: #1FD082;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.log:hover 
+{
+    background-color: #000000;
+    color: #1FD082;  
+}
+
+.log
+{
+    position: absolute;
+    left: 69px;
+    bottom: 60px;
+    width: 156px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 40px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.Home
+{
+    position: absolute;
+    width: 295px;
+    height: 81px;
+    left: -5px;
+    top: 88px;
+    border: 0px;
+    
+    background: #9DE1C5;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.Home:active
+{
+    background: #FFFFFF;
+}
+
+.Playlist
+{
+    position: absolute;
+    width: 295px;
+    height: 81px;
+    left: -5px;
+    top: 181px;
+    border: 0px;
+    
+    background: #9DE1C5;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.Playlist:active
+{
+    background: #FFFFFF;
+}
+
+.Albums
+{
+    position: absolute;
+    width: 295px;
+    height: 81px;
+    left: -5px;
+    top: 274px;
+    border: 0px;
+    
+    background: #9DE1C5;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.Albums:active
+{
+    background: #FFFFFF;
+}
+
+.Artists
+{
+    position: absolute;
+    width: 295px;
+    height: 81px;
+    left: -5px;
+    top: 367px;
+    border: 0px;
+    
+    background: #9DE1C5;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.Artists:active
+{
+    background: #FFFFFF;
+}
+
+#btn-container img
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 62px;
+    top: 14px;
+}
+
+#btn-container t
+{
+    position: absolute;
+    left: 118px;
+    top: 15px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+
+.song
+{
+    float: left;
+    margin: 20px;
+    width: 265px;
+    height: 299px;
+
+    background: #2D2D2D;
+    border-radius: 15px;
+}
+
+.song:hover
+{
+    transform: scale(1.01);
+}
+
+.song img
+{
+    position: relative;
+    width: 182px;
+    height: 195px;
+    left: 42px;
+    top: 15px;
+    border-radius: 23px;
+}
+
+.song name
+{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    left: 42px;
+    top: 28px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
+
+.song artist
+{
+    position: relative;
+    display: inline-block;
+    left: 42px;
+    top: 43px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #C4C4C4;
+}
+
+.add-tpl{
+    position: relative;
+    display: grid;
+    width: 50px;
+    height: 50px;
+    left: 199px;
+    top: -10px;
+    color:#1FD082;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 48px;
+    text-align: center;
+    gap: 100px;
+    border: 0px;
+    
+    border-radius: 100%;
+    background: #000000;
+    cursor: pointer;;
+}
+
+.add-tpl:hover{
+    background: #838080
+}
+
+
+
+.screen{
+    position: absolute;
+    width: 1230px;
+    height: 791px;
+    left: 295px;
+    top: 0px;
+    
+    background: #000000
+}
+
+.p1{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.p2{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.p3{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.scr{
+    position: absolute;
+    width: 1230px;
+    height: 791px;
+    left: 295px;
+    top: 80px;
+    
+    background: #000000
+}
+
+.p4{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: -40px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.player{
+    width: 883px;
+    height: 150px;
+    bottom: 0;
+    margin-left: 620px;
+    margin-bottom: 10px;
+    position:fixed;
+    z-index:150;    
+    background: #FFFFFF;
+    border-radius: 163px;
+}
+
+.info-song{
+    position: absolute;
+    width: 245px;
+    height: 44px;
+    left: 208px;
+    top: 31px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #000000;
+}
+
+.info-ar{
+    position: absolute;
+    width: 244px;
+    height: 35px;
+    left: 208px;
+    top: 75px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    
+    color: #1FD082;
+}
+
+.control,#current {
+    position: absolute;
+    width: 89px;
+    height: 61px;
+    left: 542px;
+    top: 55px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+
+.line{
+    position: absolute;
+    width: 150px;
+    height: 0px;
+    left: 400px;
+    top: 75px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90.38deg);
+}
+
+
+#playbtn {
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    padding-right: 10px;
+
+    font-size: 32px;
+    color: #1FD082;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    cursor: pointer;
+}
+
+#playbtn:hover {
+    -webkit-text-fill-color: #000000;
+}
+
+#current {
+    text-align: right;
+}
+
+.bar {
+    --space: 4px;
+    background-color: #24242424;
+    overflow: hidden;
+    left: var(--space);
+    right: var(--space);
+    top: var(--space);
+    bottom: var(--space);
+    position: absolute;
+    border-radius: 163px;
+    z-index: -2;
+}
+
+#progress {
+    display: blcok;
+    width: var(--progress,0%);
+    background-color: rgb(9, 148, 93);
+    transition: all 1s linear;
+    height: 100%;
+}
+
+.poster{
+
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 55px;
+    top: 10px;
+    
+    background: #C4C4C4;
+    border-radius: 24px;
+}
+
+.minus{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: 60px;
+    color:#1FD082;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 24px;
+    text-align: center;
+    
+    background: #000000;
+    border-radius: 146.5px;
+    cursor: pointer;
+}
+
+.mini-pr{
+    position: fixed;
+    width: 216px;
+    height: 97px;
+    left: 1260px;
+    bottom: -48.5px;
+    color:#ffffff;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    
+    background: #1FD082;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.playlist-songs{
+    position: absolute;
+    display: block;
+    width: 1230px;
+    height: 791px;
+    left: 0px;
+    top: 100px;
+}
+
+.create-pl{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 35px;
+    top: 30px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 185px;
+    text-align: center;
+    
+    color: #000000;
+    cursor: pointer;
+    
+    background: #C4C4C4;
+}
+
+#cpl-page{
+    position: absolute;
+    width: 800px;
+    height: 410px;
+    left: 133px;
+    top: 53px;
+    z-index: 1;
+    
+    background: #ABE2BE;
+    border-radius: 60px;
+}
+
+.noyp{
+    position: relative;
+    width: 348px;
+    height: 45px;
+    left: 30px;
+    top: 20px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #000000;
+}
+
+.pl-name{
+    position: relative;
+    width: 480px;
+    height: 58px;
+    left: 30px;
+    top: 10px;
+    border: 0px;
+    
+    background: #1FD082;
+    border-radius: 20px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sai{
+    position: relative;
+    width: 263px;
+    height: 45px;
+    left: 30px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #000000;
+}
+
+.save-pl{
+    position: relative;
+    width: 190px;
+    height: 50px;
+    left: 30px;
+    top: 70px;
+    border: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+    border-radius: 39px;
+    
+    background: #1FD082;
+}
+
+.cancel{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 30px;
+    top: 30px;
+    color:#1FD082;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 24px;
+    text-align: center;
+    
+    background: #000000;
+    border-radius: 146.5px;
+    cursor: pointer;
+}
+
+.banner{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 230px;
+    left: 25px;
+    top: 350px;
+    margin: 10px;
+    
+    background: #cb7ceb;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner:hover{
+    background: #9be88f;
+    transform: scale(1.01);
+}
+
+
+.pimg{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    top: 16px;
+    left: 30px;
+    border-radius: 10px
+}
+
+.plname{
+    position: relative;
+    width: 130px;
+    height: 35px;
+    left: 30px;
+    top: 31px;    
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: bold;
+    
+    color: #ffffff;
+}
+
+.pltext{
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 159px;
+    top: 115px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #9be88f;
+}
+
+.pldesc{
+    position: absolute;
+    width: 355px;
+    height: 50px;
+    left: 199px;
+    top: 194px;
+    text-align: left;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #cb7ceb;
+}
+
+.album-banner
+{
+    float: left;
+    margin: 20px;
+    width: 265px;
+    height: 299px;
+    margin-top: 140px;
+    background: #2a3e27;
+    border-radius: 15px;
+}
+
+.album-banner:hover
+{
+    transform: scale(1.01);
+}
+
+.album-cover
+{
+    position: relative;
+    width: 182px;
+    height: 195px;
+    left: 42px;
+    top: 15px;
+    border-radius: 23px;
+}
+
+.album-name
+{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    left: 42px;
+    top: 28px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
+
+.album-artist
+{
+    position: relative;
+    display: inline-block;
+    left: 42px;
+    top: 43px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #C4C4C4;
+}
+
+.artist-banner
+{
+    float: left;
+    margin: 20px;
+    width: 270px;
+    height: 320px;
+    margin-top: 140px;
+    background: #6b8570;
+    border-radius: 5px;
+}
+
+.artist-banner:hover
+{
+    transform: scale(1.01);
+}
+
+.artist-cover
+{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    left: 20px;
+    top: 8px;
+    border-radius: 155px;
+}
+
+.artist-name
+{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    left: -20px;
+    top: 25px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+.NRF{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: 120px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    
+    color: #63bb6c;
+}
+
+.song-search
+{
+    float: left;
+    margin: 20px;
+    margin-top: 80px;
+    width: 265px;
+    height: 299px;
+
+    background: #2D2D2D;
+    border-radius: 15px;
+}
+
+.song-search:hover
+{
+    transform: scale(1.01);
+}
+
+.song-search img
+{
+    position: relative;
+    width: 182px;
+    height: 195px;
+    left: 42px;
+    top: 15px;
+    border-radius: 23px;
+}
+
+.song-search name
+{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    left: 42px;
+    top: 28px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
+
+.song-search artist
+{
+    position: relative;
+    display: inline-block;
+    left: 42px;
+    top: 43px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #C4C4C4;
+}
+
+.close{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: 10px;
+    color:#000000;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 24px;
+    text-align: center;
+    
+    background: #1FD082;
+    border-radius: 146.5px;
+    cursor: pointer;
+}
+
+.p-namer{
+    position: absolute;
+    width: 1205px;
+    height: 58px;
+    left: 35px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.pop-up{
+    position: absolute;
+    width: 775px;
+    height: 410px;
+    left: 133px;
+    top: 53px;
+    z-index: 1;
+    
+    background: #ABE2BE;
+    border-radius: 20px;
+}
+
+.banner-select{
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 70px;
+    left: 25px;
+    top: 30px;
+    margin: 10px;
+    
+    background: #cb7ceb;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner-select:hover{
+    transform: scale(1.02);
+}
+
+.pname{
+    position: relative;
+    width: 130px;
+    height: 35px;
+    left: 10px;
+    top: 10px;    
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: bold;
+    
+    color: #ffffff;
+}
+
+.sap{
+    position: relative;
+    width: 430px;
+    height: 35px;
+    left: 30px;
+    top: 30px;    
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 25px;
+    font-style: bold;
+    
+    color: #664a64;
+}
+
+.scre{
+    position: absolute;
+    width: 1230px;
+    height: 791px;
+    left: 295px;
+    top: 0px;
+
+    background: #824e7d;
+}
+
+.songp
+{
+    float: left;
+    margin: 10px;
+    width: 385px;
+    height: 100px;
+
+    background: #e2f2df;
+    border-radius: 15px;
+}
+
+.songp:hover
+{
+    background: #76e983;
+}
+
+.songp img
+{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 15px;
+    top: 10px;
+    
+    border-radius: 5px;
+}
+
+.songp name
+{
+    position: relative;
+    display: inline-block;
+    left: 25px;
+    top: -40px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    
+    color: #000000;
+}
+
+.songp artist
+{
+    position: relative;
+    display: grid;
+    left: 103px;
+    top: -22px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #7c7c7c;
+}
+
+
+.p10{
+    position: absolute;
+    width: 605px;
+    height: 58px;
+    left: 35px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #ffffff;
+}
+
+.footer{
+    position: fixed;
+    width: 295px;
+    bottom: -50px;
+    padding: 0px;
+    left: 0%;
+    top: 0%;
+    
+    background: #1FD082;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}

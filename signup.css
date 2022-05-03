@@ -1,0 +1,220 @@
+*
+body
+{
+    background-image: url('bg signup.jpg');
+    
+}
+header
+{
+position: absolute;
+width: 1536px;
+height: 69px;
+left: 0px;
+top: 0px;
+
+background: #1FD082;
+}
+
+logo
+{
+    position: absolute;
+    width: 245px;
+    height: 48px;
+    left: 27px;
+    top: 11px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+img
+{
+    position: absolute;
+    width: 292px;
+    height: 287px;
+    left: 1060px;
+    top: 278px;
+    
+}
+
+rect
+{
+    position: absolute;
+    width: 1272px;
+    height: 511px;
+    left: 127px;
+    top: 111px;
+    
+    background: #FFFFFF;
+    border-radius: 61px;
+}
+
+.button
+{
+    position: absolute;
+    width: 149px;
+    height: 60px;
+    left: 127px;
+    top: 667px;
+    
+    background: #1FD082;
+    border: 0px;
+    border-radius: 40px;
+
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    color: #ffffff;  
+
+    border-radius: 40px;
+}
+
+.button:hover 
+{
+    background: #FFFFFF;
+    color: #000000;  
+}
+
+t
+{
+    position: absolute;
+    width: 346px;
+    height: 86px;
+    left: 184px;
+    top: 178px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 76px;
+    
+    color: #000000;
+}
+
+input
+{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+t1
+{
+    position: absolute;
+    width: 108px;
+    height: 50px;
+    left: 184px;
+    top: 301px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4
+}
+
+.i1
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 184px;
+    top: 359px;
+}
+
+t2
+{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 184px;
+    top: 422px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4;
+}
+
+.i2
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 184px;
+    top: 478px;
+}
+
+t3
+{
+    position: absolute;
+    width: 99px;
+    height: 50px;
+    left: 614px;
+    top: 301px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4;
+}
+
+.i3
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 614px;
+    top: 359px;
+}
+
+t4
+{
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 614px;
+    top: 422px;
+    
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #C4C4C4;
+}
+
+.i4
+{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 614px;
+    top: 478px;
+}
